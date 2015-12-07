@@ -7,6 +7,10 @@ storm-docker
 Dockerfiles for building a storm cluster. Inspired by [https://github.com/ptgoetz/storm-vagrant](https://github.com/ptgoetz/storm-vagrant)
 
 The images are available directly from [https://index.docker.io](https://index.docker.io)
+* https://hub.docker.com/r/gchiam/storm/
+* https://hub.docker.com/r/gchiam/storm-nimbus/
+* https://hub.docker.com/r/gchiam/storm-supervisor/
+* https://hub.docker.com/r/gchiam/storm-ui/
 
 ##Pre-Requisites
 
