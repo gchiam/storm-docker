@@ -8,9 +8,13 @@ EXPOSE 6703
 EXPOSE 8000
 
 RUN apk --update add \
+    curl \
+    build-base \
+    gcc \
     python \
     python-dev \
     py-pip
+
 
 RUN pip install -U pip
 RUN pip install virtualenv
