@@ -17,4 +17,5 @@ RUN pip install virtualenv
 
 RUN /usr/bin/config-supervisord.sh supervisor
 RUN /usr/bin/config-supervisord.sh logviewer
-CMD /usr/bin/start-supervisor.sh
+
+CMD ["/usr/bin/start-supervisor.sh"]
