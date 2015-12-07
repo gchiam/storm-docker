@@ -1,4 +1,4 @@
-FROM gchiam/storm:0.10.4
+FROM gchiam/storm:0.10.0
 
 MAINTAINER Gordoon Chiam <gordon.chiam@gmail.com>
 
