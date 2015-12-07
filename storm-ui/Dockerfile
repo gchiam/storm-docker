@@ -1,11 +1,8 @@
-FROM wurstmeister/storm:0.9.4
-MAINTAINER Wurstmeister
+FROM gchiam/storm:0.10.0
+
+MAINTAINER Gordoon Chiam <gordon.chiam@gmail.com>
+
 RUN /usr/bin/config-supervisord.sh ui
 
 EXPOSE 8080
 CMD /usr/bin/start-supervisor.sh
-
-
-
-
-
