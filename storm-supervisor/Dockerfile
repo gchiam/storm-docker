@@ -7,7 +7,6 @@ EXPOSE 6702
 EXPOSE 6703
 EXPOSE 8000
 
-RUN apt-get intsall python-pip
 RUN apk --update add \
     python \
     python-dev \
